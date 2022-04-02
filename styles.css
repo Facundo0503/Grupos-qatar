@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+    font-family: "Poppins";
+}
+
+.general-box{
+ text-align: center;
+ margin-top: 12%;
+}
+
+.card-container{
+ background-color: #ffffffde;
+ display: flexbox;
+ width: 20%;
+ display: inline-block;
+ text-align: left;
+ margin: 10px;
+ border-radius: 15px;
+ border: 10px ridge rgba(63, 18, 28, 0.658);
+ background-image: linear-gradient(to top, rgba(97, 9, 46, 0.705), rgb(126, 94, 104))
+}
+
+.card-content{
+
+}
+
+.grupo{
+    text-align: center;
+    border-bottom: 5px ridge rgba(56, 5, 5, 0.774);
+    font-family: "Poppins";
+    font-size: 25px;
+    background-color: rgba(143, 25, 74, 0.267);
+}
+
+.icon-flag{
+    width: 50px;
+}
+ 
+li{
+    list-style-type: none;
+}
+
+.links{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+}
+.links:hover{
+    color: cornsilk;
+    transition: all 0.6s;
+}
+
+a{
+    transform: skew(30deg, 20deg);
+}
+img:hover{
+    transform: translateX(10px) rotate(10deg) translateY(5px);
+    
+}
