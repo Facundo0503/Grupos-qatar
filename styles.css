@@ -79,6 +79,26 @@ li{
 
 /* DE ACA HACIA ABAJO ES UNA PRUEBA */
 
+/* JAVASCRIPT */
+.clock-container{
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(97, 9, 46, 0.432), rgba(126, 94, 104, 0.514));
+  margin: 10px 0 10px 0;
+}
+
+#clock {
+  font-size: 3.5em;
+  text-align: center;
+  margin: 10px;
+}
+
+.text-clock{
+ width: 50%;
+ margin-left: 25%;
+}
+
+/* JAVASCRIPT */
+
 /* Estilos principales para el botón */
 .header-effect{
     position: absolute;
