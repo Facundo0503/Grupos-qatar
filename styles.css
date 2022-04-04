@@ -39,7 +39,8 @@ body{
  margin: 10px;
  border-radius: 15px;
  border: 10px ridge rgba(63, 18, 28, 0.658);
- background-image: linear-gradient(to top, rgba(97, 9, 46, 0.705), rgb(126, 94, 104))
+ background-image: linear-gradient(to top, rgba(97, 9, 46, 0.705), rgb(126, 94, 104));
+ color:white;
 }
 
 .card-content{
@@ -63,7 +64,7 @@ li{
 }
 
 .links{
-    color: rgb(0, 0, 0);
+    color:white;
     font-size: 25px;
     text-decoration: none;
 }
